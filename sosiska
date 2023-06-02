@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="a">
+            <h1>Бронирование</h1>
+            <button>Назад</button>
+        </div>
+        <h2>Информация о рейсе</h2>
+    </header>
+    <main>
+        <table  width="1200">
+            <tr>
+                <th>Рейс</th>
+                <th>Откуда</th>
+                <th>Дата и время вылета</th>
+                <th>Куда</th>
+                <th>Время полета</th>
+                <th>Стоимость</th>
+            </tr>
+            <tr>
+                <td>ФК 2144</td>
+                <td>Казань, Международный аэропорт</td>
+                <td>10-09-2020 в 8:00</td>
+                <td>Москва, Шерентьево</td>
+                <td>9:30</td>
+                <td>8000</td>
+            </tr>
+            <tr>
+                <td>ФК 2161</td>
+                <td>Москва, Шерентьево</td>
+                <td>20-09-2020 в 10:00</td>
+                <td>Казань, Международный аэропорт</td>
+                <td>11:30</td>
+                <td>9000</td>
+            </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <th>Общая стоимость</th>
+                    <td>16000</td>
+                </tr>
+        </table>
+        <div class="q">
+            <button>Добавить пассажира</button>
+        </div>
+    </main>
+    <footer>
+        <div class="t">
+            <h1>Пассажиров</h1>
+            <div class="e">
+                <form>
+                    <input type="text" name="text" placeholder="Имя">
+                    <input type="text" name="text" placeholder="Фамилия">
+                    <input type="text" name="text" placeholder="Дата рождения">
+                    <input type="text" name="text" placeholder="Номер документа">
+                    <button>Убрать</button>
+                </form>
+            </div>
+            <div class="r">
+                <button>Потверждать</button>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
